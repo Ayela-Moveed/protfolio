@@ -1,0 +1,90 @@
+body {
+  font-family:'Inter',sans-serif;
+  line-height:2.2;
+  padding:20px;
+}
+header{
+  text-allign:center;
+  margin-bottom:30px;
+}
+.center {
+  background-color: rgb(202, 205, 206);
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+}
+.about{
+  display:flex;
+  gap:20px;
+  align-items:center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgba(92, 86, 86, 0.822);
+}
+.profile-photo{
+  width:160px;
+  height:160px;
+  border-radius:50%;
+  margin-bottom:15px;
+  object-fit: cover;
+}
+.contact{
+  border-bottom: 2px solid rgba(92, 86, 86, 0.822);
+}
+.contact h6{
+  font-weight: bold;
+}
+.projects{
+  border-bottom: 2px solid rgba(92, 86, 86, 0.822);
+}
+.projects dt{
+  font-weight: bold;
+}
+.education {
+  margin-bottom: 30px;
+  border-bottom: 2px solid rgba(92, 86, 86, 0.822);
+}
+.education h5{
+font-weight: bold;
+}
+.edu-item {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #fffcfc; 
+}
+.edu-row {
+  display: flex;
+  justify-content: space-between;
+}
+.edu-left {
+  font-weight: 600;
+}
+.edu-right {
+  text-align: right;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: start; 
+  border-bottom: 2px solid rgba(92, 86, 86, 0.822);
+}
+.flex-container > div {
+  background-color: #fafbfc;
+  border-radius: 15px;
+  border: 2px solid #7f857f;
+  width: 120px;         
+  height: 40px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;    
+}
+footer{
+  margin-top:40px;
+  text-allign:center;
+  border-top:1 px solid #000;
+  padding-top:20px;
+  font-size:14px;
+}
